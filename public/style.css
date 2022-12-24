@@ -44,6 +44,7 @@ body {
 .landingPage a h1 {
     margin-top: 25vh;
     font-family: "certhas";
+    font-weight: lighter;
     font-size: 3.5rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.379);
     text-align: center;
@@ -196,6 +197,7 @@ nav svg {
 .logo h1 {
     margin-left: 0.8rem; 
     font-family: "certhas";
+    font-weight: lighter;
     font-size: 1.2rem;
     color: black;
     font-weight: bold;
@@ -240,6 +242,7 @@ nav svg {
     background-color: #e0cdcb;
     color: #0e0f02;
     font-family: "certhas";
+    font-weight: lighter;
     cursor: pointer;
 }
 
@@ -428,6 +431,7 @@ footer {
     color: #1b1b1b;
     padding: 2%;
     font-family: "certhas";
+    font-weight: lighter;
     font-size: 1rem;
 }
   
@@ -448,6 +452,8 @@ footer {
     text-align: center;
     padding:5%;
     font-family: "certhas";
+    font-weight: lighter;
+    color: #0e0f0282;
 }
 
 .resume {
@@ -480,3 +486,4 @@ footer {
 .heading {
     padding-top: 15px;
 }
+
