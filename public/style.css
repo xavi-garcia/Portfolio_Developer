@@ -486,10 +486,10 @@ footer {
     padding-top: 15px;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
   video {
-    width: 45%;
+    width: 70%;
     height: 30vh;
     border-radius: 1.5rem;
     margin-top: 1rem;
@@ -497,4 +497,4 @@ footer {
     object-fit: cover;
 }
 
-}
+} */
