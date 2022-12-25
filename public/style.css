@@ -7,12 +7,12 @@
 
 html {
   overflow-x: hidden;
-  overflow: auto;
 }
 
 body {
     height: 100%;
     background: #e0cdcb;
+    overscroll-behavior-y: contain;
 }
 
 
