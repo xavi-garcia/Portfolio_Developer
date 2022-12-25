@@ -486,8 +486,15 @@ footer {
     padding-top: 15px;
 }
 
-@media screen and (min-width: 768px) {
-  body {
-    padding: 0% 10%;
-  }
+@media screen and (max-width: 768px) {
+
+  video {
+    width: 70%;
+    height: 40vh;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+    padding: 5%;
+    object-fit: cover;
+}
+
 }
