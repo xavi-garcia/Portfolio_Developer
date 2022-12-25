@@ -489,8 +489,8 @@ footer {
 @media screen and (max-width: 768px) {
 
   video {
-    width: 70%;
-    height: 40vh;
+    width: 45%;
+    height: 30vh;
     border-radius: 1.5rem;
     margin-top: 1rem;
     padding: 5%;
