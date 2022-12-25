@@ -5,13 +5,14 @@
 }
 
 
-html {
+/* html {
   overflow-x: hidden;
-}
+} */
 
 body {
     height: 100%;
     background: #e0cdcb;
+    overflow-x: hidden;
 }
 
 
@@ -480,15 +481,10 @@ footer {
     padding-top: 15px;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
-  video {
-    width: 70%;
-    height: 30vh;
-    border-radius: 1.5rem;
-    margin-top: 1rem;
-    padding: 5%;
-    object-fit: cover;
+  html {
+    overflow-x: hidden;
+  }
+
 }
-
-} */
