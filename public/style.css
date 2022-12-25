@@ -5,9 +5,9 @@
 }
 
 
-/* html {
-  overflow-x: hidden;
-} */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
     height: 100%;
