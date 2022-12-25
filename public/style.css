@@ -185,10 +185,6 @@ nav svg {
   font-family: "orgonite";
 }
 
-.line {
-  color: #0e0f02;
-}
-
 .logo {
     display: flex;
     align-items: center;
@@ -242,14 +238,12 @@ nav svg {
     color: #0e0f02;
     font-family: "certhas";
     font-weight: lighter;
-    cursor: pointer;
 }
 
 .cta-sec {
     background-color: #0e0f02;
     color: #e0cdcb;
     font-family: "certhas";
-    cursor: pointer;
 }
 
 .classes {
