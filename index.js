@@ -24,7 +24,7 @@ gsap.set(videos, { opacity: 0 });
 
 videos.forEach((video) => {
   ScrollTrigger.create({
-    trigger: video,
+    // trigger: video,
     // start: "top center",
     // end: "bottom center",
 
