@@ -146,11 +146,11 @@ h3 {
 
 .hey {
     color: #e0cdcb;
-    -webkit-animation: hey 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    animation: hey 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    /* -webkit-animation: hey 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: hey 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; */
 }
 
-@-webkit-keyframes hey {
+/* @-webkit-keyframes hey {
     0% {
       -webkit-filter: blur(12px);
               filter: blur(12px);
@@ -173,7 +173,7 @@ h3 {
               filter: blur(0px);
       opacity: 1;
     }
-}
+} */
   
 
 nav {
@@ -204,6 +204,7 @@ nav svg {
   align-items: center;
   justify-content: space-evenly;
   transform: translateX(100%);
+  
 }
 
 
@@ -248,11 +249,11 @@ nav svg {
 
 .profilepic{
     width:35%;
-    -webkit-animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    /* -webkit-animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; */
 }
 
-@-webkit-keyframes profilepic {
+/* @-webkit-keyframes profilepic {
     0% {
       -webkit-filter: blur(12px);
               filter: blur(12px);
@@ -275,7 +276,7 @@ nav svg {
               filter: blur(0px);
       opacity: 1;
     }
-}
+} */
 
 .selling-point h3 {
     font-family: sans-serif;
@@ -562,6 +563,7 @@ ul li {
 @media only screen and (min-width: 350px) and (max-width: 500px) {
 
     body {
+        height: 100%;
         overflow-x: hidden;
     }
 
@@ -581,11 +583,11 @@ ul li {
 
     .profilepic{
         width:80%;
-        -webkit-animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-        animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+        /* -webkit-animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+        animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; */
     }
     
-    @-webkit-keyframes profilepic {
+    /* @-webkit-keyframes profilepic {
         0% {
           -webkit-filter: blur(12px);
                   filter: blur(12px);
@@ -608,12 +610,13 @@ ul li {
                   filter: blur(0px);
           opacity: 1;
         }
-    }
+    } */
 }
 
 @media only screen and (min-width: 450px) and (max-width: 1000px) {
 
     body {
+        height: 100%;
         overflow-x: hidden;
     }
 
@@ -633,11 +636,11 @@ ul li {
     
     .profilepic{
         width:80%;
-        -webkit-animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-        animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+        /* -webkit-animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+        animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; */
     }
     
-    @-webkit-keyframes profilepic {
+    /* @-webkit-keyframes profilepic {
         0% {
           -webkit-filter: blur(12px);
                   filter: blur(12px);
@@ -660,5 +663,5 @@ ul li {
                   filter: blur(0px);
           opacity: 1;
         }
-    }
+    } */
 }
