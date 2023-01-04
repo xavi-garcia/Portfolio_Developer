@@ -565,6 +565,20 @@ ul li {
         overflow-x: hidden;
     }
 
+    .links {
+        position: absolute;
+        background: white;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transform: translateX(100%);
+    }
+
     .profilepic{
         width:80%;
         -webkit-animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -601,6 +615,20 @@ ul li {
 
     body {
         overflow-x: hidden;
+    }
+
+    .links {
+        position: absolute;
+        background: white;
+        width: 100%;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transform: translateX(100%);
     }
     
     .profilepic{
