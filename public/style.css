@@ -560,6 +560,11 @@ ul li {
 }
 
 @media only screen and (min-width: 350px) and (max-width: 500px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
     .profilepic{
         width:80%;
         -webkit-animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
@@ -593,6 +598,10 @@ ul li {
 }
 
 @media only screen and (min-width: 450px) and (max-width: 1000px) {
+
+    body {
+        overflow-x: hidden;
+    }
     
     .profilepic{
         width:80%;
