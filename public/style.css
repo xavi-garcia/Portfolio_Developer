@@ -560,14 +560,68 @@ ul li {
 } */
 
 @media only screen and (min-width: 350px) and (max-width: 500px) {
-    .profilepic {
-        width: 80%;
+    .profilepic{
+        width:80%;
+        -webkit-animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+        animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    }
+    
+    @-webkit-keyframes profilepic {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+      }
+      @keyframes profilepic {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
     }
 }
 
 @media only screen and (min-width: 450px) and (max-width: 1000px) {
     
-    .profilepic {
-        width: 80%;
+    .profilepic{
+        width:80%;
+        -webkit-animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+        animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    }
+    
+    @-webkit-keyframes profilepic {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
+      }
+      @keyframes profilepic {
+        0% {
+          -webkit-filter: blur(12px);
+                  filter: blur(12px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-filter: blur(0px);
+                  filter: blur(0px);
+          opacity: 1;
+        }
     }
 }
