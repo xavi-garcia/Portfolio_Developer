@@ -551,13 +551,13 @@ ul li {
     padding-top: 10px;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
 
   html {
     overflow-x: hidden;
   }
 
-}
+} */
 
 @media only screen and (min-width: 350px) and (max-width: 500px) {
     .profilepic {
