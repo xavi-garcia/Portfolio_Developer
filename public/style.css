@@ -3,15 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
 /* html {
   scroll-behavior: smooth;
 } */
 
 body {
     height: 100%;
-    background: #e0cdcb;
+    background: #afa3a1;
     overflow-x: hidden;
 }
 
@@ -37,9 +35,25 @@ body {
 }
 
 .landingPage {
-    min-height: 100vh;
+    min-height: 30vh;
     color: black;
-    background: #e0cdcb;
+    background: #afa3a1;
+}
+
+.landingPage2 {
+  min-height: 45vh;
+  background: black;
+  box-shadow: 0px 4px 4px rgb(255, 255, 255)
+
+}
+
+.jobdescription{
+  font-family: "certhas";
+  font-weight: lighter;
+  font-size: 1.5rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.379);
+  text-align: center;
+  padding-left: 300px;
 }
 
 .landingPage a h1 {
@@ -49,12 +63,12 @@ body {
     font-size: 3.5rem;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.379);
     text-align: center;
-    padding: 5%;
 }
 
 .landingPage a {
     text-decoration: none;
     color: #1b1b1b;
+    background-color: #afa3a1;
 }
 
 .signature:hover {
@@ -143,38 +157,9 @@ h3 {
     line-height: 125%;
 }
 
-
 .hey {
     color: #e0cdcb;
-    /* -webkit-animation: hey 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    animation: hey 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; */
 }
-
-/* @-webkit-keyframes hey {
-    0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-  }
-  @keyframes hey {
-    0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-} */
-  
 
 nav {
     display: flex;
@@ -240,7 +225,7 @@ nav svg {
 }
 
 .selling-point {
-    margin-top: 25vh;
+    margin-top: 10vh;
     font-family: "orgonite";
     text-shadow: 0px 4px 12px black;
     text-align: center;
@@ -248,39 +233,15 @@ nav svg {
 }
 
 .profilepic{
-    width:35%;
-    /* -webkit-animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
-    animation: profilepic 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both; */
+    width:15%;
 }
 
-/* @-webkit-keyframes profilepic {
-    0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-  }
-  @keyframes profilepic {
-    0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-} */
 
 .selling-point h3 {
-    font-family: sans-serif;
+    font-family: "avocado";
     line-height: 140%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .ctas {
@@ -297,6 +258,7 @@ nav svg {
 
 .cta-main {
     background-color: #e0cdcb;
+    padding: 20px;
     color: #0e0f02;
     font-family: "certhas";
     font-weight: lighter;
@@ -304,13 +266,14 @@ nav svg {
 
 .cta-sec {
     background-color: #0e0f02;
+    padding: 20px;
     color: #e0cdcb;
     font-family: "certhas";
 }
 
 .classes {
-    padding-top: 25vh;
-    background-color: #e0cdcb;
+    padding-top: 10vh;
+    background-color: #afa3a1;
     color: var(--secondary-color);
     text-align: center;
     align-items: center;
@@ -319,7 +282,7 @@ nav svg {
 
 video {
     width: 100%;
-    height: 90vh;
+    height: 50vh;
     border-radius: 1.5rem;
     margin-top: 1rem;
     padding: 5%;
@@ -383,7 +346,7 @@ video {
     padding-top: 300px; */
 }
 .myStack {
-    padding-top: 25vh;
+    padding-top: 10vh;
     font-family: "orgonite";
     text-align: center;
     background: rgb(66, 66, 66);
@@ -484,17 +447,18 @@ video {
 
 footer {
     text-align: center;
-    background-color: whitesmoke;
+    background-color: #afa3a1;
     color: #1b1b1b;
-    padding: 2%;
+    padding: 1.5%;
     font-family: "certhas";
     font-weight: lighter;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
   
 .links-resume  {
     text-align: center;
     font-family: "avocado";
+    background-color: #afa3a1;
 }
 
 .contact {
@@ -502,19 +466,21 @@ footer {
     text-decoration: none;
     color: whitesmoke;
     margin:2%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.379);
 }
 
 .mystacksection {
     margin:0;
 }
 
+
 .presentation {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: center;
     padding:5%;
     font-family: "certhas";
     font-weight: lighter;
-    color: #0e0f0282;
+    color: #000000;
 }
 
 .resume {
@@ -530,6 +496,36 @@ footer {
     padding: 20px;
 }
 
+.projectsexperience {
+  font-size: 1.2rem;
+  margin: 5px;
+  padding: 20px;
+  background-color:  #afa3a1 ;
+}
+
+.projectsexperience li {
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.projectsexperience p {
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.story {
+  color: #f9c197;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.379);
+  font-size: 1.2rem;
+}
+
+.paragraph {
+  padding-left: 300px;
+  padding-right: 250px;
+}
+
 ul li {
     list-style: none;
 }
@@ -537,7 +533,6 @@ ul li {
 .education {
     font-size: 1.2rem;
     margin: 5px;
-    height: 100vh;
     padding: 20px;
 }
 
@@ -549,7 +544,13 @@ ul li {
 }
 
 .heading {
-    padding-top: 10px;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.heading2 {
+  font-size: 1.5rem;
+  color: #fddd2a;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.379);
 }
 
 @media screen and (max-width: 768px) {
