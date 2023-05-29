@@ -9,7 +9,7 @@
 
 body {
     height: 100%;
-    background: #afa3a1;
+    background: #f4e4e1;
     overflow-x: hidden;
 }
 
@@ -346,7 +346,7 @@ video {
     padding-top: 300px; */
 }
 .myStack {
-    padding-top: 10vh;
+    padding-top: 5vh;
     font-family: "orgonite";
     text-align: center;
     background: rgb(66, 66, 66);
@@ -354,7 +354,7 @@ video {
 }
 
 .stack {
-    color: #e0cdcb;
+    color: #f4e4e1;
 }
 
 .technologies {
@@ -454,25 +454,23 @@ footer {
     font-weight: lighter;
     font-size: 1.5rem;
 }
-  
+/*RESUME SECTION */
+
+/* Name and Links*/
 .links-resume  {
     text-align: center;
     font-family: "avocado";
-    background-color: #afa3a1;
+    background-color: #030303;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.379);
 }
 
 .contact {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: whitesmoke;
-    margin:2%;
+    margin: 3%;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.379);
 }
-
-.mystacksection {
-    margin:0;
-}
-
 
 .presentation {
     font-size: 2.5rem;
@@ -480,40 +478,30 @@ footer {
     padding:5%;
     font-family: "certhas";
     font-weight: lighter;
-    color: #000000;
+    color: #fffcfc;
 }
+
+/*My Stack */
 
 .resume {
     text-align: center;
-    margin-top: 7%;
+    margin-top: 2%;
     font-family: "avocado";
 }
 
-.experience {
-    font-size: 1.2rem;
-    margin: 5px;
-    margin-bottom: 10vh;
-    padding: 20px;
+#heading {
+  font-size: 1.5rem;
+  padding: 10px;
 }
 
-.projectsexperience {
-  font-size: 1.2rem;
-  margin: 5px;
-  padding: 20px;
-  background-color:  #afa3a1 ;
+.heading2 {
+font-size: 1.2rem;
+padding-bottom: 10px;
+color: #020202;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.379);
 }
 
-.projectsexperience li {
-  padding: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.projectsexperience p {
-  padding: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
+/*Software Experience Section */
 
 .story {
   color: #f9c197;
@@ -530,27 +518,90 @@ ul li {
     list-style: none;
 }
 
-.education {
+.experience {
+    font-size: 1.2rem;
+    margin: 5px;
+    margin-bottom: 10vh;
+    padding: 20px;
+}
+
+#projectsexperience {
+  font-size: 1.2rem;
+  margin: 5px;
+  padding: 20px;
+  background-color: #afa3a1 ;
+}
+
+#projectsexperience li {
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#projectsexperience p {
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-item {
+  background-color: #F2F2F2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  height: 80vh;
+  flex: 1;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/*Experience Section*/
+
+.categories {
+  color:#4d3a38;
+  font-size: 2rem;
+  line-height: 125%;
+  padding:15px;
+}
+
+.row {
+  display: flex;
+  border-radius: 5px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+ /*Education Section */
+
+#education {
     font-size: 1.2rem;
     margin: 5px;
     padding: 20px;
 }
 
-.categories {
-    color:#4d3a38;
-    font-size: 2rem;
-    line-height: 125%;
-    padding:15px;
+.flex-item2 {
+  background-color: #afa3a1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  height: 40vh;
+  flex: 1;
+  text-align: center;
+  border-radius: 5px;
 }
 
-.heading {
-    font-size: 1.5rem;
-    padding: 10px;
-}
-.heading2 {
-  font-size: 1.5rem;
-  color: #fddd2a;
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.379);
+h5 {
+  padding: 10px;
 }
 
 @media screen and (max-width: 768px) {

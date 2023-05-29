@@ -21,86 +21,99 @@
     <section class="resume">
         <div class="mystacksection">
             <h3 class="heading">My Stack:</h3>
-            <p class="heading2">HTML5, CSS3, JavaScript, TypeScript, Node.js, React.js, Redux, Express.js, Ruby, MongoDB, Mongoose, SQL.</p>
+            <p class="heading2">HTML5, CSS3, JavaScript, TypeScript, Node.js, React.js, Redux, Express.js, Ruby, MongoDB, SQL.</p>
         </div>
-        <div class="projectsexperience">
-            <h2 class="categories">Projects:</h2>
+
+        <h2 class="categories">Software Projects:</h2>
+        <section class="flex-container">
+        <div id="projectsexperience" class="flex-item">
             <h3 class="heading">ApiRestful</h3>
             <p><em>JavaScript, Node.js, Express.js, MongoDB, Mongoose, Handlebars, CSS3, Passport, JWT.</em></p>
             <p class="story">An online store where different features can be accessed depending on your role, you can either register as an administrator or as a regular client.</p>
             <ul>
-                <li> - A registration and login form were created encrypting the password with ByCrypt and connecting with MongoDB.</li>
-                <li> - As an administrator you can POST, PUT, DELETE, and GET data through different HTTPS requests.</li>
-                <li> - Mongoose was used to create the necessary schemas to connect with MongoDB and keep the architecture of the information clean and coherent.</li>
-                <li> - Passport JWT allows users to authenticate endpoints using a JSON Web Token.</li>
+                <li>A registration and login form were created encrypting the password with ByCrypt and connecting with MongoDB.</li>
+                <li>As an administrator you can POST, PUT, DELETE, and GET data through different HTTPS requests.</li>
+                <li>Mongoose was used to create the necessary schemas to connect with MongoDB and keep the architecture of the information clean and coherent.</li>
+                <li>Passport JWT allows users to authenticate endpoints using a JSON Web Token.</li>
             </ul>
-        </div>
-        <div class="projectsexperience">
+            </div>
+        
+        <div id="projectsexperience" class="flex-item">
             <h3 class="heading">Haku's World</h3>
             <p><em>Vanilla JavaScript, HTML5, CSS3, Bootstrap and Toastify.</em></p>
             <p class="story">An e-commerce that allows you to access different products, filter by different categories and carry out a purchase.</p>
             <ul>
-                <li> - Asynchronous code with async await was used to load data while still enabling the program to run other tasks.</li>
-                <li> - Bootstrap and Toastify were used to enhance CSS3 potential and deliver a cohesive UI/UX.</li>
+                <li>Asynchronous code with async await was used to load data while still enabling the program to run other tasks.</li>
+                <li>Bootstrap and Toastify were used to enhance CSS3 potential and deliver a cohesive UI/UX.</li>
             </ul>
         </div>
-        <div class="projectsexperience">
+        
+        <div id="projectsexperience" class="flex-item">
             <h3 class="heading">Resume with React and TypeScript</h3>
-            <p><em>TypeScript, React.js and CSS3</em></p>
-            <p class="story">I created this app with TypeScript and React. It's a resume with my work experience and some projects.</p>
-            <p></p>The idea of this app is to show the use React Hooks such as useState and libraries such as react-router-dom.</p>
+            <p><em>TypeScript, React.js and CSS3.</em></p>
+            <p class="story">A Single Page Application resume built with React and TypeScript with a contact form.</p>
+            <ul>
+                <li>I learned TypeScript for this specific project and implemented it on my code.</li>
+                <li>React-router-dom was used to navigate through different sections on this SPA app.</li>
+            </ul>
         </div>
-        <div>
-            <h3 class="categories">Experience</h3>
-        </div>
-        <div class="experience">
-
-            <h3 class="heading">English Teacher at CoderHouse</h3>
-            <h5><em>November 2022 - now</em></h5>
-            <p> Advanced English Teacher in English Academy.</p>
-
-            <h3 class="heading">JavaScript, React.js and Node.js Tutor at CoderHouse</h3>
-            <h5><em>October 2021 - now</em></h5>
-            <p> I assist those students having coding issues. I teach them good coding practices to write a cleaner syntax and learn to debug their code.</p>
-            <p> I also teach lessons and correct projects.</p>
-
-            <h3 class="heading">English Teacher at own business</h3>
-            <h5><em>March 2013 - Now</em></h5>
-            <p> I set up my own business where I offer English lessons to students working in the IT field.</p> 
-            <p> In addition, I successfully prepare students for international exams like FIRST, CAE, TOEFL, IELTS.</p>
-            
-        </div>
+        </section>
 
         <div>
-            <h3 class="categories">Education</h3>
+            <h3 class="categories">Experience:</h3>
         </div>
-        <div class="education">
+        <div class="row" id="projectsexperience">
+            <h3  class="column" id="heading">JavaScript, React.js and Node.js Tutor at CoderHouse</h3>
+            <h5  class="column"><em>October 2021 - now</em></h5>
+            <p  class="column"> I teach students good coding practices to write a cleaner syntax and learn to debug their code.</p>
+            <p  class="column"> I assist the teacher by answering questions in class and providing examples.</p>
+        </div>
+        <div class="row" id="projectsexperience">
+            <h3  class="column" id="heading">English Teacher</h3>
+            <h5  class="column"><em>March 2013 - Now</em></h5>
+            <p  class="column"> I set up my own business and I offer English lessons to students working in the IT field.</p> 
+            <p  class="column"> I work with my students in teams to help them reach a level of the language that will allow them to work for international companies.</p>
+        </div>
 
-            <h3 class="heading">Associate's Degree in Web Development</h3>
-            <h5><em>March 2023</em></h5>
-            <p> Tecnicatura en Desarrollo web y de Aplicaciones in Instituto Politécnico Córdoba.
-            </p>
 
-            <h3 class="heading">Argentina Programa</h3>
-            <h5><em>August 2022 - November 2022</em></h5>
-            <p> JavaScript and Ruby Certification.
-            </p>
+        <div>
+            <h3 class="categories">Education:</h3>
+        </div>
+        <section class="flex-container" id="education">
+            <div class="flex-item2">
+                <h3 id="heading">Degree in Web and App Development</h3>
+                <h5><em>March 2023</em></h5>
+                <p> Degree in Web and App Development at Instituto Superior Politécnico Córdoba.
+                </p>
+            </div>
+            <div class="flex-item2">
+                <h3 id="heading">Argentina Programa</h3>
+                <h5><em>August 2022 - November 2022</em></h5>
+                <p> JavaScript and Ruby Certification.</p>
+            </div>
+            <div class="flex-item2">
+                <h3 id="heading">Full-Stack Developer</h3>
+                <h5><em>March 2021 - June 2022</em></h5>
+                <p>A one-year Bootcamp where I studied Web Development, JavaScript, React and Node.js.</p>
+            </div>
+            <div class="flex-item2">
+                <h3 id="heading">National Public Translator</h3>
+                <h5><em>March 2009 - December 2013</em></h5>
+                <p> Five-years degree in English Translation and Linguistics at the National University of Córdoba.</p>
+            </div>       
+        </section>
 
-            <h3 class="heading">Full-Stack Developer</h3>
-            <h5><em>March 2021 - June 2022</em></h5>
-            <p> Bootcamp in IT Academy CoderHouse. I learned front-end and back-end development.
-            </p>
+        <div>
+            <h3 class="categories">Awards:</h3>
+        </div>
+        <div class="row" id="projectsexperience">
+            <h3  class="column" id="heading">Scholarship</h3>
+            <h5  class="column"><em>August 2015 - June 2016</em></h5>
+            <p class="column"> I was awarded a scholarship by the National University of Córdoba and McDaniel College due to my excellent performance at my university</p>
+        </div>
 
-            <h3 class="heading">National Public Translator</h3>
-            <h5><em>March 2009 - December 2013</em></h5>
-            <p> Five years degree in English Translation and Linguistics at the National University of Córdoba.
-            </p>
-
-            <h3 class="heading">McDaniel College</h3>
-            <h5><em>August 2015 - May 2016</em></h5>
-            <p> I studied linguistics and art for a year at McDaniel College in Maryland.
-            </p>
-
+        <div>
+            <h3 class="categories"></h3>
         </div>
     </section>
 </body>
